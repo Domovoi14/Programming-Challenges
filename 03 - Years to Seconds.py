@@ -1,4 +1,3 @@
-
 print "Age to Seconds - Bonfire" # Name of the program, and it's creator.
 Age = raw_input("Current age in years: ") # Ask for the age.
 Years = int(Age) # Turn the age into an integer.

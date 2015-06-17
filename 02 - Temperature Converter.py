@@ -4,7 +4,7 @@ print "Thanks to AllMeasures.com for the conversion table." # http://www.allmeas
 ConvertF = str.lower(raw_input("Convert Temperature From (Accepts F, C, or K) : ")) # Accepts F, C, or K.
 ConvertT = str.lower(raw_input("Convert Temperature To (Accepts F, C, or K) : ")) # Accepts F, C, or K.
 InTemp = str.lower(raw_input("Input Temperature: ")) # Temperature, pretty straightforward
-Temp = int(InTemp) # Turn out temperature into an integer
+Temp = int(InTemp) # Turn our temperature into an integer
 
 if ConvertF == ConvertT: # If you're converting something to itself, it should equal itself
 	print "Final temperature equals" + Temp # Output
