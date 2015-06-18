@@ -5,11 +5,11 @@ Flips = raw_input("Number of coins to flip? ") # Question
 NumFlips = int(Flips)  # Convert input to integer.
 
 while NumFlips > 0:	 # While there are still coins to flip, work!
-	Number = randint(0,100)  # Generate a random integer, 0 to 100.
+	Number = randint(1,10000)  # Generate a random integer, 1 to 10,000.
 
-	if Number >= 50:  # If the number is greater or equal to 50, then...
+	if Number > 5000:  # If the number is greater than 5,000, then...
 		Outcome = "Heads"  # The outcome is heads.
-	elif Number <= 49:  # If the number is less than or equal to 49, then...
+	elif Number <= 5000:  # If the number is less than or equal to 5,000, then...
 		Outcome = "Tails"  # The outcome is tails.
 
 	print Outcome + " with a number of " + str(Number)  # Print the outcome, and it's cooresponding number.
